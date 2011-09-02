@@ -1,0 +1,4 @@
+all:
+  error_handler:
+    force_exceptions: false
+    
