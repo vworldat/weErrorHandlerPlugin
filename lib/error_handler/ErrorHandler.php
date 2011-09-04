@@ -124,6 +124,6 @@ class ErrorHandler
 		
 		$class = sprintf('ErrorHandler%sException', $tmp);
 		
-		throw new $class(sprintf('Error handler caught %s: %s in %s on line %d', $errType, $errorData['errStr'], $errorData['errFile'], $errorData['errLine']));
+		throw new $class(sprintf('Error handler caught %s: %s in %s on line %d', $errorType, $errorData['errStr'], $errorData['errFile'], $errorData['errLine']));
 	}
 }
