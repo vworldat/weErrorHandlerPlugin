@@ -13,7 +13,7 @@ warnings and notices will throw Exceptions (e.g. `ErrorHandlerNoticeException`).
 Requirements
 ------------
 
-- symfony 1.3 oder 1.4 (could work with previous versions too, untested)
+- symfony 1.3 or 1.4 (could work with previous versions too, untested)
 
 Installation
 ------------
